@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { routes } from '../rotues';
 import { Navbar } from '../components';
-import { PostsPage } from './PostsPage.module.css/PostsPage';
+import { PostsPage } from './PostsPage/PostsPage';
 import { PostDetailsPage } from './PostDetailsPage';
 import { Provider } from 'react-redux';
 import store from '../redux/store';
